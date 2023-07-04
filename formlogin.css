@@ -1,0 +1,218 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* styling of the parent container */
+.login {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* styling of the background image */
+.pics {
+    background-image: url(./images/big\ house.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 80%;
+    opacity: 0.6;
+}
+
+.login-details {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.login-content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 70px;
+}
+
+h1 {
+    color: rgba(25, 31, 24, 0.942);
+}
+
+hr {
+    background-color: red;
+    height: 5px;
+    width: 100px;
+    outline: none;
+}
+
+/* styling of the username content */
+.content-1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: rgb(71, 90, 71);
+}
+
+.name {
+    height: 60px;
+    width: 400px;
+    border-radius: 30px;
+    border: 2px solid rgb(71, 90, 71);
+}
+
+/* styling of the password content */
+.content-2,
+.content-3 {
+    padding-bottom: 20px;
+    color: rgb(71, 90, 71);
+    font-size: 20px;
+}
+
+.password {
+    height: 60px;
+    width: 400px;
+    border-radius: 30px;
+    border: 2px solid rgb(51, 79, 51);
+}
+
+/* styling of the checkbox */
+.check {
+    font-size: 15px;
+}
+
+.sign-in {
+    background-color: red;
+    border-radius: 30px;
+    border: 2px solid red;
+    height: 60px;
+    width: 400px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(253, 251, 251);
+    font-weight: bolder;
+}
+
+p {
+    color: rgb(11, 30, 11);
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+
+a {
+    color: rgb(236, 61, 61);
+}
+
+.last-part {
+    padding-left: 90px;
+    padding-top: 40px;
+}
+
+.facebook {
+    height: 80px;
+    width: 120px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+.twitter {
+    height: 60px;
+    width: 80px;
+}
+
+.instagram {
+    height: 50px;
+    width: 80px;
+}
+
+@media screen and (max-width:850px) {
+
+    .name,
+    .password,
+    .sign-in {
+        height: 40px;
+        width: 250px;
+    }
+
+    .sign-in {
+        font-size: 15px;
+    }
+
+    .content-1,
+    .content-2 {
+        font-size: 17px;
+    }
+
+    .pics {
+        width: 88%;
+        height: 90vh;
+    }
+
+
+}
+
+@media screen and (max-width:650px) {
+
+    .name,
+    .password,
+    .sign-in {
+        height: 30px;
+        width: 230px;
+    }
+
+    .sign-in {
+        font-size: 10px;
+    }
+
+    .content-1,
+    .content-2 {
+        font-size: 15px;
+    }
+
+    .pics {
+        height: 85vh;
+        width: 78%;
+
+    }
+
+    .sign-in {
+        font-size: 15px;
+    }
+}
+
+
+
+@media screen and(max-width:600px) {
+
+
+    .name,
+    .password,
+    .sign-in {
+        height: 25px;
+        width: 200px;
+    }
+
+    .sign-in {
+        font-size: 10px;
+    }
+
+    .content-1,
+    .content-2 {
+        font-size: 15px;
+    }
+
+    .pics {
+        height: 85vh;
+        width: 70%;
+
+    }
+
+    .sign-in {
+        font-size: 15px;
+    }
+    
+    .logo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+}

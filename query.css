@@ -1,0 +1,64 @@
+/* .media-query{
+    width: 360px;
+    height: 400px;
+    background-color: blue;
+    border-radius: 20px;
+    text-align: center;
+}
+
+@media(min-width:450px) and (max-width:1024px){
+    .media-query{
+        background-color: yellow;
+
+    }
+}
+
+@media(min-width:992px){
+    .media-query h4{
+        font-size: 25px;
+    }
+} */
+body{
+   background-color:grey ;
+}
+.patrick{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px; 
+    
+
+}
+
+.patrick-pic{
+ text-align: center;
+ margin-bottom: -120px;
+ 
+}
+.wood{
+   background-color: white;
+   border-radius: 5px;
+   text-align: center;
+   font-size: 15px;
+   margin: auto;
+   height: 50vh;
+   width: 300px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top:120px;
+}
+.ceo{
+padding-top: 10px;
+padding-bottom: 50px;
+}
+
+@media(min-width:450px) and (max-width:1200px) {
+    .wood{
+        width: 400px;
+    
+    }
+
+   
+}
